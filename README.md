@@ -1,23 +1,24 @@
-# Solidity Blockchain Assignments – SimplyFI Internship
+# Solidity Blockchain Assignments – SimplyFI
 
 This repository contains two smart contract assignments created using **Solidity** for the internship evaluation process. These projects are designed to demonstrate understanding of blockchain logic, smart contract safety, and basic decentralized workflows.
 
 ## 📄 Contents
 
-### 1. 🗳️ Decentralized Voting System (`DecentralizedVotingSystem.sol`)
+### 1. 🔐 Escrow Marketplace (`EscrowServices.sol`)
+A simple escrow-based marketplace that:
+- Lets sellers list items with a fixed price
+- Locks funds from buyers until delivery is confirmed
+- Releases payment to sellers only after buyer approval
+- Ensures trust and dispute reduction using smart contract logic
+
+
+### 2. 🗳️ Decentralized Voting System (`DecentralizedVotingSystem.sol`)
 A voting system built on blockchain that:
 - Allows users to register before a deadline
 - Permits only one vote per user
 - Blacklists any user who tries to vote more than once
 - Tracks total votes per candidate
 - Provides transparency through public vote counts
-
-### 2. 🔐 Escrow Marketplace (`EscrowServices.sol`)
-A simple escrow-based marketplace that:
-- Lets sellers list items with a fixed price
-- Locks funds from buyers until delivery is confirmed
-- Releases payment to sellers only after buyer approval
-- Ensures trust and dispute reduction using smart contract logic
 
 ---
 
